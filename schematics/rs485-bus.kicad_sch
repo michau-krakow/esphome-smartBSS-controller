@@ -1,0 +1,184 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6ea69f85-5fb2-4242-98cd-ea9d2d40355b")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 66.04 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05976f62-0044-4f27-9461-11d4a3970ad9")
+	)
+	(bus_entry
+		(at 68.58 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6efe38-110f-4838-859e-fd983a9f12a4")
+	)
+	(bus
+		(pts
+			(xy 49.53 60.96) (xy 66.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca57040-a28d-44a3-89db-77d2fa7a0b1a")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 71.12 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a47534-2f41-497b-88e7-4ab321fe3f12")
+	)
+	(bus
+		(pts
+			(xy 66.04 60.96) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c10098a-d58c-4c16-9811-fb9b7ff9e6cb")
+	)
+	(bus
+		(pts
+			(xy 50.8 45.72) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41dcde6-bd1d-4d2f-910a-c514454a5ac1")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11b5f97-e0bb-467c-9d60-116b8209b15c")
+	)
+	(label "+12DC"
+		(at 68.58 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "789c5df3-882d-42c0-ba5b-5a6dfb35a0a4")
+	)
+	(label "GND"
+		(at 71.12 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8c5f386-a740-429d-98c8-ee3e2c5e7f53")
+	)
+	(hierarchical_label "12V_DC"
+		(shape bidirectional)
+		(at 49.53 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d662bd34-b4b6-4e2d-bb92-8206f0112bf5")
+		(property "12V" ""
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "GND" ""
+			(at 49.53 63.881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "RS485"
+		(shape bidirectional)
+		(at 50.8 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f825063b-b5c9-4a81-b607-f9de054d4586")
+		(property "A+" ""
+			(at 50.8 46.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "B-" ""
+			(at 50.8 48.641 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "12V" ""
+			(at 50.8 50.292 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "GND" ""
+			(at 50.8 51.943 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+)

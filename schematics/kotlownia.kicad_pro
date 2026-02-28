@@ -414,8 +414,24 @@
       "Root"
     ],
     [
+      "1b304514-6b7e-4012-88d5-c873b495c203",
+      "LilyGo T-Relay6"
+    ],
+    [
       "d8b33e67-112e-4a9e-81be-2f0597f12468",
-      "external_RTD"
+      "PT1000_RTD"
+    ],
+    [
+      "33d0bb62-e2f8-41c5-855c-b2ba7ed385cd",
+      "ILI948x 4\" LCD 480X320 display + touch"
+    ],
+    [
+      "4eed2310-a4a6-4d00-a022-9c68f70ba7ee",
+      "uart-rs485"
+    ],
+    [
+      "b035e3ca-3c7c-48b8-8519-eda2086ef9c9",
+      "RS485-bus"
     ]
   ],
   "text_variables": {}

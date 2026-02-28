@@ -1,0 +1,109 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f8a73212-71f0-473b-aefe-47e792554fe0")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 83.82 63.5)
+		(end 130.81 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6bc1bf00-4325-40fa-b958-ad3ef0207d0f)
+	)
+	(rectangle
+		(start 83.82 107.95)
+		(end 130.81 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid df2dac70-b7b1-4f1f-8635-e679a94b0985)
+	)
+	(text "LCD DISPLAY"
+		(exclude_from_sim no)
+		(at 98.298 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05badf5d-a502-4d6c-a34e-5c49339cb441")
+	)
+	(text "TOUCH PANEL"
+		(exclude_from_sim no)
+		(at 101.092 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c12f1760-c373-41d1-ac73-5e51e9679260")
+	)
+	(junction
+		(at 158.75 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "090f60be-0a6c-49eb-b5ea-11d078cfa492")
+	)
+	(bus
+		(pts
+			(xy 158.75 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c0a7b1-b6a2-47a4-9b34-0ab92a6d4d6c")
+	)
+	(bus
+		(pts
+			(xy 130.81 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2e07d0-ac36-4f0c-9ba6-477b99cdcc73")
+	)
+	(bus
+		(pts
+			(xy 130.81 118.11) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943aabe8-e355-46fb-9b27-96a585d52a40")
+	)
+	(bus
+		(pts
+			(xy 158.75 69.85) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b2df65-4fb7-479e-b995-8c73340ec6a8")
+	)
+	(hierarchical_label "SPI"
+		(shape bidirectional)
+		(at 190.5 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd0e5f94-566e-4f33-a6c0-53a7320de4e4")
+	)
+)
